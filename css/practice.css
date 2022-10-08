@@ -69,6 +69,11 @@ margin: 0;
 
 /********************  Reesponsive ******************/
 @media only screen and (max-width: 1200px){
+    .wrap-body{
+        border: 2px solid red;
+        padding: 0%;
+        margin: 0%;
+    }
     form .inputForm{
         display: flex;
         flex-direction: column;
@@ -116,7 +121,7 @@ margin: 0;
 }
 /* Footer */
 @media only screen and (min-width: 1200px){
-    
+   
     .boxFooter{
         display: flex;
         flex-direction: row;
