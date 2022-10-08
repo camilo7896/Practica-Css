@@ -70,7 +70,6 @@ margin: 0;
 /********************  Reesponsive ******************/
 @media only screen and (max-width: 1200px){
     .wrap-body{
-        border: 2px solid red;
         padding: 0%;
         margin: 0%;
     }
