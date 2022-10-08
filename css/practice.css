@@ -1,0 +1,130 @@
+/************************** Home *************************/
+.wrap-body{
+    padding: 0 15% 0 15%;
+}
+
+
+.box-item{
+    width: 50%;
+}
+
+.boxCont{ 
+     display: flex;
+    flex-wrap: wrap; 
+}
+/* caja1 */
+.box-item1{
+    grid-column-end: 2;
+    width: 40%;
+}
+/* caja2 */
+.box-item2{
+    grid-column-end: 2;
+    width: 60%;
+}
+/* caja3 */
+.box-item3{
+    grid-column-end: 2;
+    width: 60%;
+}
+/* caja4 */
+.box-item4{
+    grid-column-end: 2;
+    width: 40%;
+}
+/* caja5 */
+.box-itemr5{
+    grid-column-end: 2;
+    width: 20%;
+}
+/* caja6 */
+.box-item6{
+    grid-column-end: 2;
+    width: 50%;
+}
+
+/************************ Form *********************/
+form .inputForm{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+form .inputForm .input{width: 100%;
+margin: 0;
+}
+
+/******************** About **********************/
+
+/*** content ***/
+.text-box{
+    width: 100%;
+    align-content: center;
+    height: 500px;
+}
+.img-box{
+    
+    height: 500px;
+    width: 236%
+}
+
+/********************  Reesponsive ******************/
+@media only screen and (max-width: 1200px){
+    form .inputForm{
+        display: flex;
+        flex-direction: column;
+    } 
+    .boxCont{ 
+        display: flex;
+       flex-wrap: wrap; 
+       flex-direction: column;
+   }
+   .box-item{
+    grid-column-end: 2;
+    width: 100%;
+}
+.logo{
+    padding-top: 25px;
+    text-align: center;
+}
+.content-box.box-style-1 {
+    background-image: url(../images/model.png);
+    background-repeat: no-repeat;
+	background-size: contain;
+    color: #333;
+}
+.contentBox{
+    display: flex;
+    flex-direction: column;
+}
+.contentBox h2{
+    font-size: 19px;
+}
+/*** content ***/
+.text-box{
+    width: 100%;
+    align-content: center;
+    height: auto;
+    font-size: 15px;
+    text-align:start;
+}
+.img-box{
+    height: 500px;
+    width: 100%
+}
+
+
+}
+/* Footer */
+@media only screen and (min-width: 1200px){
+    
+    .boxFooter{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .contentFooter{
+        margin: 15px;
+        width: 50%;
+    }
+}
+
